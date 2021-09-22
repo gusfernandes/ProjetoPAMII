@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+    <EditText
+        android:id="@+id/mtxtlatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Coloque a latitude"
+        android:textColorHint="@color/white"
+        android:padding="30dp"/>
+
+    <EditText
+        android:id="@+id/mtxtlongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColorHint="@color/white"
+        android:hint="Coloque a longitude"
+        android:padding="30dp"/>
+
+    <Button
+        android:id="@+id/pesquisa"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="procurar"/>
+
+</LinearLayout>
+
